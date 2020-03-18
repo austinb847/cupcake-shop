@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 h1 {
   font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
   color: #2b2b2b;
@@ -36,4 +41,22 @@ img.center {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+}
+
+.intro {
+  height: 90vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
 }
