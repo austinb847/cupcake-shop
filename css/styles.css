@@ -14,6 +14,11 @@ h2 {
   font-size: 3em;
   display: block;
   font-weight: 300;
+  text-align: center;
+}
+
+.best {
+  font-weight: bold;
 }
 
 body {
@@ -66,3 +71,5 @@ section {
   display: table-cell;
   vertical-align: middle;
 }
+
+
