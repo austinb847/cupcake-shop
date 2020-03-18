@@ -5,6 +5,16 @@ h1 {
   text-align: center;
 }
 
+body {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  text-align: center;
+}
+
 p.motto {
   color: #111;
   font-family: 'Open Sans', sans-serif; 
@@ -13,4 +23,17 @@ p.motto {
   line-height: 32px; 
   margin: 0 0 72px; 
   text-align: center; 
+}
+
+p.flashy {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
